@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Tienda</h1>
+    <div class="carrito-resumen">
+      🛒 Carrito: <span id="contador">0</span> | Total: $<span id="total">0.00</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Los mejores productos al mejor precio</h2>
+    <p>Envíos a todo el país</p>
+  </section>
+
+  <main>
+    <h2>Productos</h2>
+    <div id="productos" class="grid"></div>
+
+    <h2>Tu carrito</h2>
+    <ul id="lista-carrito"></ul>
+    <button id="vaciar">Vaciar carrito</button>
+    <button id="comprar">Comprar</button>
+  </main>
+
+  <footer>
+    <p>© 2026 Mi Tienda - Proyecto alojado en AWS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
